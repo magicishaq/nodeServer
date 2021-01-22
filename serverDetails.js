@@ -24,7 +24,7 @@ function getRandomQuote () {
 const app = express(); 
 
 app.get('/',  (request, response) => {
-     response.send(path.join(__dirname, 'index.html'))
+     response.sendFile(path.join(__dirname, 'index.html'))
 })
 
 app.get('/details', (request, response) => {

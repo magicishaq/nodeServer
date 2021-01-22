@@ -1,5 +1,6 @@
 document.querySelector('.details-button')
 .addEventListener('click', () => {
+    console.log('clicked')
     fetch('/details')
     .then((response) => {
         return response.json()

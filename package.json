@@ -1,0 +1,25 @@
+{
+  "name": "nodeServer",
+  "version": "1.0.0",
+  "description": "A simple node server. feel free to share",
+  "main": "serverDetails.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serverDetails.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicishaq/nodeServer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magicishaq/nodeServer/issues"
+  },
+  "homepage": "https://github.com/magicishaq/nodeServer#readme"
+}
